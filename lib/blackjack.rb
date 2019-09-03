@@ -33,7 +33,7 @@ def initial_round
   return first_round
 end
 
-def hit?
+def hit?(card_total)
   valid_inputs = ["h", "s"]
 
   prompt_user
