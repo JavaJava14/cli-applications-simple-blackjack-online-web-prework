@@ -7,6 +7,7 @@ def deal_card
       while card[0] > 1 && card[10] < 11 do
         return card.sample
       end
+      card
 end
 
 
