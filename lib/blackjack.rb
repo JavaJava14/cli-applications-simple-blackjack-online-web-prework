@@ -8,7 +8,7 @@ def deal_card
       if card[0] or card[11]
         return false
       else
-        return card
+        return random
     end
 end
 end
