@@ -9,8 +9,7 @@ def deal_card
         return card
       end
 end
-end
-end
+
 
 def display_card_total
   # code #display_card_total here
