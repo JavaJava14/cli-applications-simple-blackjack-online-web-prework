@@ -3,13 +3,13 @@ def welcome
 end
 
 def deal_card
+  # rand(1..11) works too
   card = [1,2,3,4,5,6,7,8,9,10,11]
       while card[0] > 1 && card[10] < 11 do
         return card.sample
       end
       card.sample
 end
-
 
 def display_card_total
   # code #display_card_total here
