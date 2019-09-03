@@ -4,9 +4,9 @@ end
 
 def deal_card
   card = [1,2,3,4,5,6,7,8,9,10,11]
-    card.collect do |random|
+    card.map do |random|
       while card.collect > 1 && card.collect < 11 do
-        return card
+        return random
       end
 end
 end
