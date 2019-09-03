@@ -8,11 +8,6 @@ def deal_card
       while card > 1 && card < 11 do
         return random
       end
-      if card[0] or card[11]
-        return false
-      else
-        return random
-    end
 end
 end
 
