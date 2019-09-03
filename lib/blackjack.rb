@@ -6,7 +6,7 @@ def deal_card
   card = [1...11]
     card.collect do |random|
       while card > 1 && card < 11 do
-        return random
+        return card
       end
 end
 end
