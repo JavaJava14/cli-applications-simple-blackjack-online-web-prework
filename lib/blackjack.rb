@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  card = [1...11]
+  card = [1,2,3,4,5,6,7,8,9,10,11]
     card.collect do |random|
       while card.collect > 1 && card.collect < 11 do
         return card
