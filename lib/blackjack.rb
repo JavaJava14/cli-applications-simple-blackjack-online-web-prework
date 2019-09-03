@@ -3,7 +3,13 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
+  card = [1...11]
+    card.collect do |random|
+      if card[0] or card[11]
+        return false
+      else
+        return card
+    end
 end
 
 def display_card_total
